@@ -4,6 +4,9 @@ export const Icono = styled.img`
   height: 25px;
   width: 25px;
 `
+export const IconoTema = styled(Icono)`
+  filter: ${({theme}) => theme.filter}
+`
 
 export const Box = styled.div`
   display: flex;
