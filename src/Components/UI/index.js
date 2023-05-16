@@ -40,4 +40,13 @@ export const Btn = styled.button`
   font-size: 14px;
   padding: 8px 20px;
   cursor: pointer;
+  `
+
+export const BtnTema = styled.div`
+  position: absolute;
+  top: 4vh;
+  right: 20px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
 `
